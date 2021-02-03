@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Orbitron&display=swap');
+
+body{
+    background: #000;
+}
+
+main{
+    min-height: 100vh;
+}
+
+.tituloFecha{
+    font-family: 'Orbitron', sans-serif;
+    color: #fff;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.tituloHora{
+    font-family: 'Londrina Outline', cursive;
+    color: #fff;
+    font-size: 4em;
+    letter-spacing: 0.1em;
+}
+
+.green{
+    text-shadow: 0 0 5px #7bffce,
+    0 0 10px #7bffce,
+    0 0 20px #7bffce,
+    0 0 40px #7bffce,
+    0 0 80px #7bffce,
+    0 0 90px #7bffce,
+    0 0 100px #7bffce;
+}
+
+.pink{
+    text-shadow: 0 0 5px #ff7bac,
+    0 0 10px #ff7bac,
+    0 0 20px #ff7bac,
+    0 0 40px #ff7bac,
+    0 0 80px #ff7bac,
+    0 0 90px #ff7bac,
+    0 0 100px #ff7bac;
+}
+
+.blue{
+    text-shadow: 0 0 5px #7bacff,
+    0 0 10px #7bacff,
+    0 0 20px #7bacff,
+    0 0 40px #7bacff,
+    0 0 80px #7bacff,
+    0 0 90px #7bacff,
+    0 0 100px #7bacff;
+}
+
+
+
+/* botones */
+
+.boton{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.btn-green{
+    background: #7bffce;
+}
+
+.btn-blue{
+    background: #7bacff;
+}
+
+.btn-pink{
+    background: #ff7bac;
+}
